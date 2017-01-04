@@ -14,6 +14,7 @@
 		E24F15CA1E187F55001D631C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E24F15C81E187F55001D631C /* LaunchScreen.storyboard */; };
 		E24F15D51E187F55001D631C /* tipperTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E24F15D41E187F55001D631C /* tipperTests.swift */; };
 		E24F15E01E187F55001D631C /* tipperUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E24F15DF1E187F55001D631C /* tipperUITests.swift */; };
+		E2F636B21E18EDA900DDEBE1 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2F636B11E18EDA900DDEBE1 /* SettingsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		E24F15DB1E187F55001D631C /* tipperUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = tipperUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E24F15DF1E187F55001D631C /* tipperUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tipperUITests.swift; sourceTree = "<group>"; };
 		E24F15E11E187F55001D631C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E2F636B11E18EDA900DDEBE1 /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +102,7 @@
 				E24F15BF1E187F55001D631C /* AppDelegate.swift */,
 				E24F15C11E187F55001D631C /* ViewController.swift */,
 				E24F15C31E187F55001D631C /* Main.storyboard */,
+				E2F636B11E18EDA900DDEBE1 /* SettingsViewController.swift */,
 				E24F15C61E187F55001D631C /* Assets.xcassets */,
 				E24F15C81E187F55001D631C /* LaunchScreen.storyboard */,
 				E24F15CB1E187F55001D631C /* Info.plist */,
@@ -261,6 +264,7 @@
 			files = (
 				E24F15C21E187F55001D631C /* ViewController.swift in Sources */,
 				E24F15C01E187F55001D631C /* AppDelegate.swift in Sources */,
+				E2F636B21E18EDA900DDEBE1 /* SettingsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -503,6 +507,7 @@
 				E24F15E61E187F55001D631C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E24F15E71E187F55001D631C /* Build configuration list for PBXNativeTarget "tipperTests" */ = {
 			isa = XCConfigurationList;
@@ -511,6 +516,7 @@
 				E24F15E91E187F55001D631C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E24F15EA1E187F55001D631C /* Build configuration list for PBXNativeTarget "tipperUITests" */ = {
 			isa = XCConfigurationList;
@@ -519,6 +525,7 @@
 				E24F15EC1E187F55001D631C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
